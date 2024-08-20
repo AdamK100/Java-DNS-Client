@@ -14,5 +14,11 @@ The DnsClient takes into account the order of arguments. You need to write the a
 
 The standard port for DNS is port 53.
 
+#### Examples:
+
+`java DnsClient -t 5 -r 3 -p 53 -ns @8.8.8.8 google.com`
+
+`java DnsClient -t 5 -r 3 -p 53 -mx @208.67.222.222 google.com`
+
 The program was built using java version 17.0.6.
 
